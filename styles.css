@@ -66,4 +66,36 @@ p > a {
     margin: 2rem 1.5rem;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    background-color: white;
+}
+.recommended {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color: #00ad6a;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 34px;
+    order: 0;
+}
+.container-heading > h3 {
+    font-size: 2.25rem;
+    color: #00AD6A;
+    padding: 1rem 1rem 0;
+}
+.container-paragraph > p {
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    color: #83858A;
+}
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    background-color: #1fe374;
 }
