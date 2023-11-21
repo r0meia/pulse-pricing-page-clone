@@ -61,12 +61,13 @@ li {
 p > a {
     color: #464951;
 }
-.container:nth-of-type(2) {
+.container:nth-of-type(2), .container:last-of-type {
     border: 1px solid #00ad6a;
     margin: 2rem 1.5rem;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: white;
+    position: relative;
 }
 .recommended {
     display: flex;
@@ -86,6 +87,8 @@ p > a {
     font-size: 2.25rem;
     color: #00AD6A;
     padding: 1rem 1rem 0;
+    line-height: 2.25rem;
+    letter-spacing: -1.5px;
 }
 .container-paragraph > p {
     font-size: 1.25rem;
@@ -96,6 +99,166 @@ p > a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80vw;
+    width: 100vw;
     background-color: #1fe374;
+    height: 50px;
+    color: #464951;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.spam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.additionals > p {
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #464951;
+    padding: 1rem;
+}
+.container:nth-of-type(2) > ul {
+    list-style-type: none;
+    padding: 0 2rem 1rem;
+}
+.container:nth-of-type(2) > ul > li {
+    padding: 0.5rem 0;
+}
+.container:nth-of-type(2) > ul > li::before {
+    position: absolute;
+    left: 16px;
+    content: url(images/Path\ Copy\ 27.svg);
+}
+.container:last-of-type > ul {
+    list-style-type: none;
+    padding: 0 2rem 1rem;
+}
+.container:last-of-type > ul > li {
+    padding: 0.5rem 0;
+}
+.container:last-of-type > ul > li::before {
+    position: absolute;
+    left: 16px;
+    content: url(images/Path\ Copy\ 27.svg);
+}
+.container:last-of-type {
+    border-color: #d6dae5;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.container-top {
+    text-align: center;
+    height: 70px;
+    background-color: #f2f3f3;
+    padding: 1rem;
+    color: #464951;
+}
+.container-top > p {
+    font-size: 0.875rem;
+}
+.container:last-of-type > .container-heading > h3 {
+    font-weight: 400;
+}
+.bottom-image {
+    display: flex;
+    justify-content: center;
+}
+.bottom-text {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.bottom-wrapper {
+    padding: 3rem 1.5rem;
+}
+.subvert-marketing {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #00AD6A;
+    padding: 1rem;
+}
+.faq {
+    border-top: 1px solid #d6dae5;
+}
+.faq-container {
+    padding: 3rem 1.5rem 2rem;
+}
+.faq-container > h4 {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    color: #080C16;
+}
+.faq-info {
+    padding: 1.5rem 0;
+}
+.faq-info > h5 {
+    font-size: 1.25rem;
+}
+.faq-info > p {
+    color: #464951;
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+}
+footer {
+    background-color: #080c16;
+}
+.footer-info {
+    padding: 2rem 1.5rem 1rem;
+}
+.footer-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.footer-sign-up {
+    background-image: linear-gradient(90deg,#00ab6a,#23ea76);
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #062c27;
+}
+.footer-img-signup {
+    margin-bottom: 1.5rem;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list > ul {
+    list-style-type: none;
+    padding: 1rem;
+    font-size: 0.875rem;
+}
+.footer-list > ul > li {
+    color: white;
+    margin: 0.5rem;
+    font-weight: 600;
+}
+.footer-list > ul > li > a {
+    color: #1fe374;
+    text-decoration: none;
+    font-weight: 400;
+}
+.footer-list > ul:first-of-type {
+    padding: 1rem 1rem 1rem 0;
+}
+.europe-privacy {
+    padding: 0.75rem 1.5rem 6rem;
+}
+.europe-privacy > p {
+    font-size: 0.75rem;
+    color: #83858A;
+    line-height: 1.2rem;
+
+}
+.europe-privacy > p > a {
+    color: #83858A;
 }
