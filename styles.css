@@ -8,13 +8,18 @@
 body {
     font-family: 'Work Sans';
 }
-.header-wrapper {
+nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem 1.5rem;
     align-items: center;
     border-bottom: 1px solid #d6dae5;
     height: 81px;
+}
+nav > ul {
+    visibility: hidden;
+    display: flex;
+    justify-content: right;
 }
 .header-image > img {
     height: 32px;
@@ -261,4 +266,12 @@ footer {
 }
 .europe-privacy > p > a {
     color: #83858A;
+}
+@media only screen and (min-width: 768px) {
+    nav > ul {
+        visibility: visible;
+    }
+    .header-image {
+        display: none;
+    }
 }
