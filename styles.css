@@ -378,4 +378,81 @@ nav > ul {
         width: 334px;
         margin: 0;
     }
+    .container:first-of-type > ul {
+        position: relative;
+        left: -1rem;
+    }
+    .container:first-of-type > p {
+        margin-top: 1rem;
+    }
+    .connect {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .container-heading > h3{
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-top: 3rem;
+    }
+    .sign-up {
+        width: 190px;
+    }
+    .additionals {
+        text-align: center;
+    }
+    .container-top {
+        padding: 1.25rem 2rem 1.5rem;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container:last-of-type >.connect > .container-heading > h3 {
+        font-size: 2.25rem;
+        padding-top: 0;
+    }
+    .bottom-wrapper {
+        margin: 0 auto;
+        width: 800px;
+        padding: 6rem 1.5rem;
+    }
+    .bottom-text > p {
+        padding: 1rem 0 0 0;
+    }
+    .faq > h4 {
+        font-size: 3rem;
+        padding-top: 6rem;
+    }
+    .footer-info {
+        display: flex;
+        flex-direction: row;
+        padding: 6rem 1.5rem;
+    }
+    .footer-list > ul {
+        width: 16.5vw;
+    }
+    .footer-img-signup {
+        width: 500px;
+        align-items: first baseline;
+    }
+    .footer-img {
+        margin-bottom: 3rem;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .section-wrapper, .faq, .footer-info, .section-wrapper, .europe-privacy, nav {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    header {
+        background-color: #eafaf1;
+    }
+    .info {
+        border-bottom: 1px solid #d6dae5;
+    }
+    .faq {
+        border-top: 0;
+    }
 }
